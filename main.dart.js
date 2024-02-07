@@ -92394,7 +92394,7 @@ q=A.bq(q,m,r).w.a.a>=870?B.TG:B.zl
 p=t.p
 q=A.jb(A.a([s,B.Mb,q],p),B.a5,B.G,B.aq)
 s=n.f
-s=A.jb(A.a([B.M8,new A.bH(B.n_,A.hw(new A.yV(1,29999,1,s,0,5,1,B.G4,B.Gc,!0,B.zf,B.zd,new A.ark(n),m),m,170),m)],p),B.a5,B.G,B.aq)
+s=A.jb(A.a([B.M8,new A.bH(B.n_,A.hw(new A.yV(1,29999,1,s,0,5,1,B.G4,B.Gc,!0,B.zf,B.zd,new A.ark(n),m),m,180),m)],p),B.a5,B.G,B.aq)
 o=n.c
 o.toString
 return A.azr(A.a([s,A.bq(o,m,r).w.a.a>=720?A.jb(A.a([A.jW(m,m,A.aAg(B.co,48,B.lK,48),m,new A.arl(n),m,m,m,"New document"),A.jW(m,m,A.aAg(B.co,48,B.lI,48),m,new A.arm(n),m,m,m,"Open file"),A.jW(m,m,A.aAg(B.co,48,B.lJ,48),m,new A.arn(n),m,m,m,"Save file")],p),B.a5,B.G,B.aq):B.Mc],p),B.ei,m,l,35,q,80)},
