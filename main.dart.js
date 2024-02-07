@@ -27266,7 +27266,7 @@ this.b=b},
 ajc:function ajc(a,b){this.a=a
 this.b=b},
 aja:function aja(a){this.a=a},
-yV:function yV(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
+yV:function yV(a,b,c,d,e,f,g,h,i,j,k,l,m){var _=this
 _.d=a
 _.e=b
 _.f=c
@@ -27277,8 +27277,9 @@ _.Q=g
 _.ax=h
 _.ay=i
 _.fx=j
-_.id=k
-_.a=l},
+_.go=k
+_.id=l
+_.a=m},
 KR:function KR(a,b,c,d,e){var _=this
 _.hK$=a
 _.vP$=b
@@ -50532,7 +50533,7 @@ b2=b2.RG
 b4=B.d4.cV(b9)
 b5=b7.a
 b6=b5.b2
-a7=A.wj(f,A.aEF(!0,a2,b7,!1,b4,B.Q,b8,b5.bw,s,e,b8,new A.j(-2/r.b,0),!0,B.cN,2,B.U,!0,b6,!0,!1,a4,n,b7.x,h,a6,b0,1,b8,b8,!1,"\u2022",b8,b8,b8,b7.gaiB(),b8,b2,b8,!0,a,!0,"editable",!0,b8,B.iY,b8,b1,b3,B.cp,B.bQ,k,a0,a9,a5,a3,b8,l,a8,B.kL,b8,a7,b8,b8))
+a7=A.wj(f,A.aEF(!0,a2,b7,!0,b4,B.Q,b8,b5.bw,s,e,b8,new A.j(-2/r.b,0),!0,B.cN,2,B.U,!0,b6,!0,!1,a4,n,b7.x,h,a6,b0,1,b8,b8,!1,"\u2022",b8,b8,b8,b7.gaiB(),b8,b2,b8,!0,a,!0,"editable",!0,b8,B.iY,b8,b1,b3,B.cp,B.bQ,k,a0,a9,a5,a3,b8,l,a8,B.kL,b8,a7,b8,b8))
 if(o){b7.a.toString
 r=!1}else r=!0
 r=r?b8:new A.ao1(b7,s)
@@ -89998,7 +89999,7 @@ l=g.a
 k=l.fx
 j=g.rh$
 j===$&&A.b()
-i=new A.K9(s,new A.yW(q,j,B.Bb,B.n2,n,m,r.id,f,f,B.hQ,!1,f,!1,B.kB,B.kC,new A.a4G(g),p,k,f,f,!0,f,f),f)
+i=new A.K9(s,new A.yW(q,j,B.Bb,B.n2,n,m,r.id,f,f,B.hQ,!1,f,!0,B.kB,B.kC,new A.a4G(g),p,k,f,f,!0,f,f),f)
 s=l.f
 r=l.ax
 if(k){q=g.hK$
@@ -92389,7 +92390,7 @@ q=A.bq(q,m,r).w.a.a>=870?B.TG:B.zk
 p=t.p
 q=A.jb(A.a([s,B.Ma,q],p),B.a5,B.G,B.aq)
 s=n.f
-s=A.jb(A.a([B.M7,new A.bH(B.n_,A.hw(new A.yV(1,29999,1,s,0,5,1,B.G3,B.Gb,!0,B.ze,new A.ma()),m,170),m)],p),B.a5,B.G,B.aq)
+s=A.jb(A.a([B.M7,new A.bH(B.n_,A.hw(new A.yV(1,29999,1,s,0,5,1,B.G3,B.Gb,!0,!0,B.ze,new A.ma()),m,170),m)],p),B.a5,B.G,B.aq)
 o=n.c
 o.toString
 return A.azp(A.a([s,A.bq(o,m,r).w.a.a>=720?A.jb(A.a([A.jW(m,m,A.aAe(B.co,48,B.lK,48),m,new A.arj(n),m,m,m,"New document"),A.jW(m,m,A.aAe(B.co,48,B.lI,48),m,new A.ark(n),m,m,m,"Open file"),A.jW(m,m,A.aAe(B.co,48,B.lJ,48),m,new A.arl(n),m,m,m,"Save file")],p),B.a5,B.G,B.aq):B.Mb],p),B.ei,m,l,35,q,80)},
