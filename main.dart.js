@@ -85208,10 +85208,9 @@ n.toString
 s=6
 return A.t(o.iC(0,n),$async$qU)
 case 6:m=d
-case 3:n=(self.URL||self.webkitURL).createObjectURL(A.awb([m],"audio/mp3"))
-n.toString
+case 3:(self.URL||self.webkitURL).createObjectURL(A.awb([m],"audio/mp3")).toString
 s=7
-return A.t(q.r.vV(A.aG2(A.eC(n,0,null),null)),$async$qU)
+return A.t(q.r.vV(A.aG2(A.eC("https://s3.amazonaws.com/scifri-episodes/scifri20181123-episode.mp3",0,null),null)),$async$qU)
 case 7:q.XL(p.c)
 return A.y(null,r)}})
 return A.z($async$qU,r)},
