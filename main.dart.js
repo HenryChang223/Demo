@@ -99177,14 +99177,14 @@ r=t.w
 k=A.bL(k,m,r).w.a.a>=400?B.Qo:B.Ak
 q=n.c
 q.toString
-q=A.bL(q,m,r).w.a.a>=870?B.X6:B.Ak
+q=A.bL(q,m,r).w.a.a>=700?B.X6:B.Ak
 p=t.p
-q=A.l6(A.b([k,B.Np,q],p),B.L,B.P,B.ah)
+q=A.l6(A.b([k,B.No,q],p),B.L,B.P,B.ah)
 k=n.f
-k=A.l6(A.b([B.Nn,new A.cd(B.nI,A.hf(new A.Bt(1,29999,1,k,0,5,1,B.GI,B.GD,!0,B.Sy,B.Af,new A.ayf(n),m),m,180),m)],p),B.L,B.P,B.ah)
+k=A.l6(A.b([B.Np,new A.cd(B.nI,A.hf(new A.Bt(1,100,1,k,0,3,1,B.GI,B.GD,!0,B.Sy,B.Af,new A.ayf(n),m),m,150),m)],p),B.L,B.P,B.ah)
 o=n.c
 o.toString
-return A.aGc(A.b([k,A.bL(o,m,r).w.a.a>=720?A.l6(A.b([A.iT(m,m,m,A.aeu(B.fz,48,B.ml,48),m,m,new A.ayg(n),m,m,m,l),A.iT(m,m,m,A.aeu(B.fz,48,B.mk,48),m,m,new A.ayh(n),m,m,m,l),A.iT(m,m,m,A.aeu(B.fz,48,B.mo,48),m,m,new A.ayi(n),m,m,m,"Open file"),A.iT(m,m,m,A.aeu(B.fz,48,B.mm,48),m,m,new A.ayj(n),m,m,m,"Save file")],p),B.L,B.P,B.ah):B.Nq],p),B.dw,s,35,q,80)},
+return A.aGc(A.b([k,A.bL(o,m,r).w.a.a>=880?A.l6(A.b([A.iT(m,m,m,A.aeu(B.fz,32,B.ml,32),m,m,new A.ayg(n),m,m,m,l),A.iT(m,m,m,A.aeu(B.fz,32,B.mk,32),m,m,new A.ayh(n),m,m,m,l),A.iT(m,m,m,A.aeu(B.fz,32,B.mo,32),m,m,new A.ayi(n),m,m,m,"Open file"),A.iT(m,m,m,A.aeu(B.fz,32,B.mm,32),m,m,new A.ayj(n),m,m,m,"Save file")],p),B.L,B.P,B.ah):B.Nq],p),B.dw,s,35,q,80)},
 amr(a){return new A.xk(new A.ayF(this),B.GK,B.MP,null,t.q3)},
 ov(a0,a1){var s=0,r=A.w(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$ov=A.r(function(a2,a3){if(a2===1)return A.t(a3,r)
@@ -99519,7 +99519,7 @@ A.ayv.prototype={
 $1(a){},
 $S:620}
 A.ayt.prototype={
-$3(a,b,c){var s=this,r=null,q=b.length!==0,p=q?B.n6:s.b,o=q?new A.dk(A.MT(4),B.C8):r,n=A.yb(s.c.c,r,r,r,B.Ah,r,r),m=s.a,l=s.d,k=new A.Na(p,o,B.nK,A.aMF(r,A.iT(r,r,r,B.GH,r,r,new A.ayr(m,l),r,r,r,"Play this song"),r,r,r,n,A.l6(A.b([A.iT(r,r,r,B.Gy,r,r,new A.ays(m,l),r,r,r,"Remove this song"),B.No],t.p),B.L,B.P,B.bU)),r)
+$3(a,b,c){var s=this,r=null,q=b.length!==0,p=q?B.n6:s.b,o=q?new A.dk(A.MT(4),B.C8):r,n=A.yb(s.c.c,r,r,r,B.Ah,r,r),m=s.a,l=s.d,k=new A.Na(p,o,B.nK,A.aMF(r,A.iT(r,r,r,B.GH,r,r,new A.ayr(m,l),r,r,r,"Play this song"),r,r,r,n,A.l6(A.b([A.iT(r,r,r,B.Gy,r,r,new A.ays(m,l),r,r,r,"Remove this song"),B.Nn],t.p),B.L,B.P,B.bU)),r)
 l=A.ot(!1,B.S,!0,r,A.hf(A.Rq(k,0.8),r,s.f),B.D,r,0,r,r,r,r,r,B.eO)
 return new A.kz(s.e,B.a6,k,A.Rq(k,0.2),l,r,t.gb)},
 $S:621}
@@ -106452,7 +106452,7 @@ B.Fy=new A.aao(0,"tonalSpot")
 B.nH=new A.h0(16,0,24,0)
 B.au=new A.b3(0,0,0,0)
 B.FA=new A.b3(0,0,0,14)
-B.nI=new A.b3(0,0,20,0)
+B.nI=new A.b3(0,0,10,0)
 B.FD=new A.b3(0,14,0,14)
 B.FE=new A.b3(0,8,0,8)
 B.FF=new A.b3(12,0,12,0)
@@ -108016,17 +108016,18 @@ B.v8=new A.Rz(0,"nearestOverlay")
 B.Nl=new A.Rz(1,"rootOverlay")
 B.Nm=new A.RB(0,"never")
 B.v9=new A.RB(3,"always")
-B.FC=new A.b3(0,0,5,0)
-B.Ah=new A.B(!0,null,null,null,null,null,18,B.a2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.WX=new A.dl("Disk No. PH-",null,B.Ah,null,null,null,null,null,null)
-B.Nn=new A.cd(B.FC,B.WX,null)
 B.FS=new A.b3(8,0,0,0)
 B.Gl=new A.ew(57862,"MaterialIcons",null,!1)
 B.GA=new A.fq(B.Gl,null,B.uY,null,null)
-B.No=new A.cd(B.FS,B.GA,null)
-B.Np=new A.cd(B.nI,null,null)
+B.Nn=new A.cd(B.FS,B.GA,null)
+B.FB=new A.b3(0,0,20,0)
+B.No=new A.cd(B.FB,null,null)
 B.Fz=new A.b3(0,0,0,10)
 B.va=new A.cd(B.Fz,null,null)
+B.FC=new A.b3(0,0,3,0)
+B.Ah=new A.B(!0,null,null,null,null,null,18,B.a2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.WX=new A.dl("Disk No. PH-",null,B.Ah,null,null,null,null,null,null)
+B.Np=new A.cd(B.FC,B.WX,null)
 B.Nq=new A.cd(B.au,null,null)
 B.Nr=new A.E9(0,"natural")
 B.Ns=new A.E9(1,"landscape")
@@ -108141,8 +108142,7 @@ B.dL=new A.xE(1,"doNotPop")
 B.z0=new A.xE(2,"bubble")
 B.i2=new A.is(null,null)
 B.H7=new A.iU(B.mo,32,32,null,null,null)
-B.FB=new A.b3(0,0,10,0)
-B.hM=new A.cd(B.FB,null,null)
+B.hM=new A.cd(B.nI,null,null)
 B.X8=new A.dl("Open File",null,null,null,null,null,null,null,null)
 B.J3=s([B.H7,B.hM,B.X8],t.p)
 B.Po=new A.l5(B.ab,B.P,B.ah,B.L,null,B.a3,null,0,B.J3,null)
