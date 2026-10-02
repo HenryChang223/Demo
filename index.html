@@ -58,21 +58,21 @@
   
 </head>
 <body>
-<!-- HTML Loading µe­± -->
+<!-- HTML Loading ç•«é¢ -->
   <div id="loading" class="loading-container">
     <div class="spinner"></div>
-    <p style="margin-top: 16px; color: #666;">À³¥Îµ{¦¡¸ü¤J¤¤¡A½Ğµy­Ô...</p>
+    <p style="margin-top: 16px; color: #666;">æ‡‰ç”¨ç¨‹å¼è¼‰å…¥ä¸­ï¼Œè«‹ç¨å€™...</p>
   </div>
   
   <script>
     window.addEventListener('load', function(ev) {
-      // ªì©l¤Æ Flutter ¤ŞÀº
+      // åˆå§‹åŒ– Flutter å¼•æ“
       _flutter.loader.loadEntrypoint({
         onEntrypointLoaded: async function(engineInitializer) {
           const appRunner = await engineInitializer.initializeEngine();
           await appRunner.runApp();
           
-          // Flutter µe­±¸ü¤J§¹¦¨¤F¡A²¾°£ HTML Loading µe­±
+          // Flutter ç•«é¢è¼‰å…¥å®Œæˆäº†ï¼Œç§»é™¤ HTML Loading ç•«é¢
           const loadingDiv = document.getElementById("loading");
           if (loadingDiv) {
             loadingDiv.remove();
