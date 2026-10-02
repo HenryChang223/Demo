@@ -31,8 +31,58 @@
 
   <title>papercd_maker</title>
   <link rel="manifest" href="manifest.json">
+  
+  <style>
+    .loading-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid #e0e0e0;
+      border-top: 5px solid #2196F3;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  
 </head>
 <body>
+<!-- HTML Loading 畫面 -->
+  <div id="loading" class="loading-container">
+    <div class="spinner"></div>
+    <p style="margin-top: 16px; color: #666;">應用程式載入中，請稍候...</p>
+  </div>
+  
+  <script>
+    window.addEventListener('load', function(ev) {
+      // 初始化 Flutter 引擎
+      _flutter.loader.loadEntrypoint({
+        onEntrypointLoaded: async function(engineInitializer) {
+          const appRunner = await engineInitializer.initializeEngine();
+          await appRunner.runApp();
+          
+          // Flutter 畫面載入完成了，移除 HTML Loading 畫面
+          const loadingDiv = document.getElementById("loading");
+          if (loadingDiv) {
+            loadingDiv.remove();
+          }
+        }
+      });
+    });
+  </script>
+  
+  
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
